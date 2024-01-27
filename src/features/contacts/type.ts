@@ -1,4 +1,3 @@
-import { ColumnDef } from '@tanstack/react-table';
 
 type BusinessRole = 'buyer' | 'seller' | 'manufacturer' | 'supplier';
 type BusinessRoles = BusinessRole[];
@@ -10,4 +9,3 @@ export type Contact = {
   email: string;
   businessRole: BusinessRoles;
 };
-
