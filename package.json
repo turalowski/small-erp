@@ -10,8 +10,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@tanstack/react-table": "^8.11.7",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.0",
+    "dotenv": "^16.4.1",
+    "json-server": "^1.0.0-alpha.23",
     "lucide-react": "^0.316.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
