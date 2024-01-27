@@ -3,13 +3,9 @@ import { useEffect, useState } from 'react';
 import { DataTable } from './components/users-table';
 
 async function getContacts(): Promise<Contact[]> {
-  const server = import.meta.env.REACT_APP_JSON_SERVER
-  // Fetch data from your API here.
+  const server = import.meta.env.VITE_JSON_SERVER
   const response = await fetch(`${server}/contacts`)
-  console.log('asds', response)
   const contacts: Promise<Contact[]> = await response.json();
-  console.log('response', contacts)
-
   return contacts;
 }
 
