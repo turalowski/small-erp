@@ -5,7 +5,7 @@
         "fullName": "John Doe",
         "companyName": "ABC Inc.",
         "email": "john.doe@example.com",
-        "businessRole": ["buyer"]
+        "businessRole": ["buyer", "seller"]
       },
       {
         "id": "2",

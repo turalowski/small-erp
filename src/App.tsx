@@ -1,6 +1,6 @@
-import { Contact, columns } from '@/lib/contacts';
+import { Contact } from '@/features/contacts/type';
 import { useEffect, useState } from 'react';
-import { DataTable } from './components/users-table';
+import { DataTable, columns } from './features/contacts/table';
 
 async function getContacts(): Promise<Contact[]> {
   const server = import.meta.env.VITE_JSON_SERVER
